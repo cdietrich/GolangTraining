@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 const (
-	_ = iota
+	_  = iota
 	KB = 1 << (iota * 10)
 	MB = 1 << (iota * 10)
 )
@@ -26,4 +26,3 @@ func main() {
 	fmt.Println(Z1)
 	fmt.Println(Z2)
 }
-

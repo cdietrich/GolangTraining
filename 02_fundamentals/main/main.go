@@ -21,7 +21,7 @@ func main() {
 	}
 	//fmt.Println(d)
 	fmt.Println(max)
-	max := max(1,2)
+	max := max(1, 2)
 	fmt.Println(max)
 }
 

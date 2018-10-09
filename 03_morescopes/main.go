@@ -21,9 +21,8 @@ func main() {
 	fmt.Println(increment())
 	fmt.Println(increment())
 
-
 	x := 0
-	increment2 := func () int {
+	increment2 := func() int {
 		x++
 		return x
 	}
