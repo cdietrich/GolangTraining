@@ -10,7 +10,7 @@ func main() {
 	fmt.Println(f(1, 2))
 }
 
-func foo() func(a int, b int) int {
+func foo() func(int, int) int {
 	return bar
 }
 

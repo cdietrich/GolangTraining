@@ -17,7 +17,7 @@ func main() {
 	fmt.Println(sum(minus, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10))
 }
 
-func foo(f func(a int, b int) int, a int, b int) {
+func foo(f func(int, int) int, a int, b int) {
 	fmt.Println(f(a, b))
 }
 
