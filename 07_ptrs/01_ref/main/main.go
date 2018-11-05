@@ -9,5 +9,7 @@ func main() {
 	var b *int = &a
 	fmt.Println(b)
 	fmt.Println(&b)
-	fmt.Printf("type of b %t %q", b, b)
+	fmt.Printf("type of b %t %q\n", b, b)
+
+	fmt.Printf("%T\n", &b)
 }
