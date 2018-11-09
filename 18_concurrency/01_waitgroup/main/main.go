@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"runtime"
 	"sync"
+	"time"
 )
 
 var wg sync.WaitGroup
@@ -24,6 +25,7 @@ func main() {
 func foo() {
 	defer wg.Done()
 	for i := 0; i < 10; i++ {
+		time.Sleep(1)
 		fmt.Println("foo:", i)
 	}
 }
@@ -31,6 +33,7 @@ func foo() {
 func bar() {
 	defer wg.Done()
 	for i := 0; i < 10; i++ {
+		time.Sleep(1)
 		fmt.Println("bar:", i)
 	}
 }
