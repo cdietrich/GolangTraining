@@ -2,8 +2,8 @@ package mymath
 
 import (
 	"fmt"
-	//"github.com/cdietrich/GoLangTraining/23_testing/03_example_tests/mymath"
-	//"github.com/cdietrich/GoLangTraining/23_testing/03_example_tests/mymath"
+	//"github.com/cdietrich/GolangTraining/23_testing/03_example_tests/mymath"
+	//"github.com/cdietrich/GolangTraining/23_testing/03_example_tests/mymath"
 )
 
 func ExampleMySum() {

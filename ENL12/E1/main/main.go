@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/cdietrich/GoLangTraining/ENL12/E1/dog"
+	"github.com/cdietrich/GolangTraining/ENL12/E1/dog"
 )
 
 func main() {

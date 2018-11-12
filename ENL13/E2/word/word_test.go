@@ -5,7 +5,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/cdietrich/GoLangTraining/ENL13/E2/quote"
+	"github.com/cdietrich/GolangTraining/ENL13/E2/quote"
 )
 
 func TestCount(t *testing.T) {

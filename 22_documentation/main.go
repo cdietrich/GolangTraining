@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/cdietrich/GoLangTraining/22_documentation/myutil"
+	"github.com/cdietrich/GolangTraining/22_documentation/myutil"
 )
 
 func main() {

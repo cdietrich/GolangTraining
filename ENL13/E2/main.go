@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/cdietrich/GoLangTraining/ENL13/E2/quote"
-	"github.com/cdietrich/GoLangTraining/ENL13/E2/word"
+	"github.com/cdietrich/GolangTraining/ENL13/E2/quote"
+	"github.com/cdietrich/GolangTraining/ENL13/E2/word"
 )
 
 func main() {

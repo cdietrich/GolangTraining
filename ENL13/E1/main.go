@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/cdietrich/GoLangTraining/ENL13/E1/dog"
+	"github.com/cdietrich/GolangTraining/ENL13/E1/dog"
 )
 
 type canine struct {
