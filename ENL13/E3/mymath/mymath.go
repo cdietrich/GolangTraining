@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"sort"
 )
+
 // CenteredAvg computes the average of a list of numbers
 // after removing the largest and smallest values.
 func CenteredAvg(xi []int) float64 {

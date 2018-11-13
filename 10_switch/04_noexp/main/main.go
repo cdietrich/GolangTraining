@@ -11,9 +11,9 @@ func main() {
 
 func doit(a int) {
 	switch {
-	case a>0 :
+	case a > 0:
 		fmt.Println("Positive")
-	case a<0:
+	case a < 0:
 		fmt.Println("Negative")
 	default:
 		fmt.Println("Zero")
